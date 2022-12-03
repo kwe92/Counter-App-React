@@ -1,4 +1,4 @@
-import styles from "./style";
+import styles from "../../../style";
 
 const CountView = (props) => (
   <div style={styles.countStyle}>

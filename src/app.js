@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import IncrementButton from "./increment";
+import IncrementButton from "./features/counter_page/components/increment";
 import styles from "./style";
-import Header from "./header";
-import DecrementButton from "./decrement";
-import CountView from "./count";
+import Header from "./features/counter_page/components/header";
+import DecrementButton from "./features/counter_page/components/decrement";
+import CountView from "./features/counter_page/components/count";
 
 const App = () => {
   const [count, setCount] = useState(0);

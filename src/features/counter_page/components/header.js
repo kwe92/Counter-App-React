@@ -1,4 +1,4 @@
-import styles from "./style.js";
+import styles from "../../../style.js";
 
 const Header = () => (
   <div style={styles.headDiveStyle}>

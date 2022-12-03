@@ -1,6 +1,6 @@
 import Button from "@mui/material/Button";
 // import Box from "@mui/material/Box";
-import styles from "./style";
+import styles from "../../../style";
 
 // Stateless Component
 const IncrementButton = (props) => {
