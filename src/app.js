@@ -3,6 +3,7 @@ import IncrementButton from "./increment";
 import styles from "./style";
 import Header from "./header";
 import DecrementButton from "./decrement";
+import CountView from "./count";
 
 const App = () => {
   const [count, setCount] = useState(0);
@@ -14,15 +15,7 @@ const App = () => {
   return (
     <div style={styles.mainDivStyle}>
       <Header />
-      <div
-        style={{
-          height: "50%",
-          display: "flex",
-          alignItems: "center",
-        }}
-      >
-        <p> Count: {count}</p>
-      </div>
+      <CountView count={count} />
       <IncrementButton onClick={increment} />
       <DecrementButton onClick={decrement} />
     </div>

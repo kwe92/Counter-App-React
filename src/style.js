@@ -33,6 +33,11 @@ const styles = {
     backgroundColor: "purple",
     margin: 0.5,
   },
+  countStyle: {
+    height: "50%",
+    display: "flex",
+    alignItems: "center",
+  },
 };
 
 export default styles;
